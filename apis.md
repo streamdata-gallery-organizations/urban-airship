@@ -5,7 +5,7 @@ description: This is a repository of urban airship APIs, self-contained as a Git
   operations.
 image: http://template.streamdata.gallery/assets/urban-airship.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://urban-airship.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
