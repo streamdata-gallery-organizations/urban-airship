@@ -4,8 +4,8 @@ x-collection-name: Urban Airship
 x-complete: 0
 info:
   title: Urban Airship Get Device Tokens Feedback
-  description: "Gets what device tokens are now invalid. Apple informs us when a push
-    notification is sent to a device that can\u2019t receive it because the application
+  description: Gets what device tokens are now invalid. Apple informs us when a push
+    notification is sent to a device that can???t receive it because the application
     has been uninstalled. We mark the device token as inactive and immediately stop
     sending notifications to that device. Once a day is a good interval for querying
     the feedback service, but you can do it more often to save on bandwidth from unnecessary
@@ -15,7 +15,7 @@ info:
     order to make this API work smoothly for you, we record the timestamp we marked
     as inactive. This means you only need to query for data since the last time you
     queried. Once a day is a good timeframe, or once a week for very small or infrequently
-    used applications. A few times a day is good for applications with heavy use."
+    used applications. A few times a day is good for applications with heavy use.
   version: v3
 host: go.urbanairship.com
 basePath: /api/
@@ -48,7 +48,7 @@ paths:
       - Token
     get:
       summary: Get Device Tokens Token
-      description: "Gets a device token\u2019s alias."
+      description: Gets a device token???s alias.
       operationId: device_tokens.token.get
       x-api-path-slug: device-tokenstoken-get
       parameters:
@@ -90,9 +90,9 @@ paths:
   /push:
     post:
       summary: Post Push
-      description: "Sends a push message to one or more users. Only one of aliases,
+      description: Sends a push message to one or more users. Only one of aliases,
         tags, or device_pins is required, but they can be mixed and matched as much
-        as you\u2019d like."
+        as you???d like.
       operationId: push.post
       x-api-path-slug: push-post
       parameters:
@@ -132,11 +132,11 @@ paths:
   /push/scheduled:
     post:
       summary: Post Push Scheduled
-      description: "Bulk deletes scheduled notifications. If you include URLs or aliases
-        for scheduled notifications that don\u2019t exist or have already been sent,
+      description: Bulk deletes scheduled notifications. If you include URLs or aliases
+        for scheduled notifications that don???t exist or have already been sent,
         they will be ignored. Any device token in the cancel_device_tokens payload
         will have every notification that is sent to it removed. This will not prevent
-        it from receiving scheduled notifications to tags or broadcast messages."
+        it from receiving scheduled notifications to tags or broadcast messages.
       operationId: push.scheduled.post
       x-api-path-slug: pushscheduled-post
       parameters:
@@ -275,11 +275,11 @@ paths:
   /device_tokens:
     get:
       summary: Get Device Tokens
-      description: "Gets information about all of your device tokens. If your application
-        has a large number of device tokens, we\u2019ll paginate the request for you.
+      description: Gets information about all of your device tokens. If your application
+        has a large number of device tokens, we???ll paginate the request for you.
         By default, we paginate at 5000 device tokens. You can receive the next page
-        simply by retrieving the URL from \"next_page\" - in this way it is easy to
-        export all of your device tokens and all their data."
+        simply by retrieving the URL from "next_page" - in this way it is easy to
+        export all of your device tokens and all their data.
       operationId: device_tokens.get
       x-api-path-slug: device-tokens-get
       parameters:
@@ -318,19 +318,19 @@ paths:
   /device_tokens/feedback:
     get:
       summary: Get Device Tokens Feedback
-      description: "Gets what device tokens are now invalid. Apple informs us when
-        a push notification is sent to a device that can\u2019t receive it because
-        the application has been uninstalled. We mark the device token as inactive
-        and immediately stop sending notifications to that device. Once a day is a
-        good interval for querying the feedback service, but you can do it more often
-        to save on bandwidth from unnecessary notifications. In the response, what
-        does marked_inactive_on mean? Apple sends a timestamp for each device token
-        returned via the feedback service. Since a device can be off the network for
-        a while, this can be a point in the recent past. In order to make this API
-        work smoothly for you, we record the timestamp we marked as inactive. This
-        means you only need to query for data since the last time you queried. Once
-        a day is a good timeframe, or once a week for very small or infrequently used
-        applications. A few times a day is good for applications with heavy use."
+      description: Gets what device tokens are now invalid. Apple informs us when
+        a push notification is sent to a device that can???t receive it because the
+        application has been uninstalled. We mark the device token as inactive and
+        immediately stop sending notifications to that device. Once a day is a good
+        interval for querying the feedback service, but you can do it more often to
+        save on bandwidth from unnecessary notifications. In the response, what does
+        marked_inactive_on mean? Apple sends a timestamp for each device token returned
+        via the feedback service. Since a device can be off the network for a while,
+        this can be a point in the recent past. In order to make this API work smoothly
+        for you, we record the timestamp we marked as inactive. This means you only
+        need to query for data since the last time you queried. Once a day is a good
+        timeframe, or once a week for very small or infrequently used applications.
+        A few times a day is good for applications with heavy use.
       operationId: device_tokens.feedback.get
       x-api-path-slug: device-tokensfeedback-get
       parameters:

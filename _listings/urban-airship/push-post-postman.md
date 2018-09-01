@@ -2,7 +2,7 @@
   "info": {
     "name": "Urban Airship Post Push",
     "_postman_id": "217e5db4-a455-4ee5-8b02-43c2269d950f",
-    "description": "Sends a push message to one or more users. Only one of aliases, tags, or device_pins is required, but they can be mixed and matched as much as you’d like.",
+    "description": "Sends a push message to one or more users. Only one of aliases, tags, or device_pins is required, but they can be mixed and matched as much as you???d like.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -32,7 +32,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Gets a device token’s alias."
+            "description": "Gets a device token???s alias."
           },
           "response": [
             {
@@ -125,7 +125,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Sends a push message to one or more users. Only one of aliases, tags, or device_pins is required, but they can be mixed and matched as much as you’d like."
+            "description": "Sends a push message to one or more users. Only one of aliases, tags, or device_pins is required, but they can be mixed and matched as much as you???d like."
           },
           "response": [
             {

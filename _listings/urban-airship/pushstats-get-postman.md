@@ -32,7 +32,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Gets a device token’s alias."
+            "description": "Gets a device token???s alias."
           },
           "response": [
             {
@@ -125,7 +125,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Sends a push message to one or more users. Only one of aliases, tags, or device_pins is required, but they can be mixed and matched as much as you’d like."
+            "description": "Sends a push message to one or more users. Only one of aliases, tags, or device_pins is required, but they can be mixed and matched as much as you???d like."
           },
           "response": [
             {
@@ -179,7 +179,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Bulk deletes scheduled notifications. If you include URLs or aliases for scheduled notifications that don’t exist or have already been sent, they will be ignored. Any device token in the cancel_device_tokens payload will have every notification that is sent to it removed. This will not prevent it from receiving scheduled notifications to tags or broadcast messages."
+            "description": "Bulk deletes scheduled notifications. If you include URLs or aliases for scheduled notifications that don???t exist or have already been sent, they will be ignored. Any device token in the cancel_device_tokens payload will have every notification that is sent to it removed. This will not prevent it from receiving scheduled notifications to tags or broadcast messages."
           },
           "response": [
             {

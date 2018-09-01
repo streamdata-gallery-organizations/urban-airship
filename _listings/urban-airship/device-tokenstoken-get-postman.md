@@ -2,7 +2,7 @@
   "info": {
     "name": "Urban Airship Get Device Tokens Token",
     "_postman_id": "e374ca04-a27a-4c87-8278-ff9ff67f417e",
-    "description": "Gets a device token’s alias.",
+    "description": "Gets a device token???s alias.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -32,7 +32,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Gets a device token’s alias."
+            "description": "Gets a device token???s alias."
           },
           "response": [
             {

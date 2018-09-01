@@ -4,9 +4,9 @@ x-collection-name: Urban Airship
 x-complete: 0
 info:
   title: Urban Airship Post Push
-  description: "Sends a push message to one or more users. Only one of aliases, tags,
-    or device_pins is required, but they can be mixed and matched as much as you\u2019d
-    like."
+  description: Sends a push message to one or more users. Only one of aliases, tags,
+    or device_pins is required, but they can be mixed and matched as much as you???d
+    like.
   version: v3
 host: go.urbanairship.com
 basePath: /api/
@@ -39,7 +39,7 @@ paths:
       - Token
     get:
       summary: Get Device Tokens Token
-      description: "Gets a device token\u2019s alias."
+      description: Gets a device token???s alias.
       operationId: device_tokens.token.get
       x-api-path-slug: device-tokenstoken-get
       parameters:
@@ -81,9 +81,9 @@ paths:
   /push:
     post:
       summary: Post Push
-      description: "Sends a push message to one or more users. Only one of aliases,
+      description: Sends a push message to one or more users. Only one of aliases,
         tags, or device_pins is required, but they can be mixed and matched as much
-        as you\u2019d like."
+        as you???d like.
       operationId: push.post
       x-api-path-slug: push-post
       parameters:

@@ -40,7 +40,7 @@ paths:
       - Token
     get:
       summary: Get Device Tokens Token
-      description: "Gets a device token\u2019s alias."
+      description: Gets a device token???s alias.
       operationId: device_tokens.token.get
       x-api-path-slug: device-tokenstoken-get
       parameters:

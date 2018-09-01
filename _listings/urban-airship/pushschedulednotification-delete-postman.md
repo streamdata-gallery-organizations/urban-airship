@@ -32,7 +32,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Gets a device token’s alias."
+            "description": "Gets a device token???s alias."
           },
           "response": [
             {
@@ -125,7 +125,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Sends a push message to one or more users. Only one of aliases, tags, or device_pins is required, but they can be mixed and matched as much as you’d like."
+            "description": "Sends a push message to one or more users. Only one of aliases, tags, or device_pins is required, but they can be mixed and matched as much as you???d like."
           },
           "response": [
             {

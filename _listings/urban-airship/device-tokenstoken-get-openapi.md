@@ -4,7 +4,7 @@ x-collection-name: Urban Airship
 x-complete: 0
 info:
   title: Urban Airship Get Device Tokens Token
-  description: "Gets a device token\u2019s alias."
+  description: Gets a device token???s alias.
   version: v3
 host: go.urbanairship.com
 basePath: /api/
@@ -37,7 +37,7 @@ paths:
       - Token
     get:
       summary: Get Device Tokens Token
-      description: "Gets a device token\u2019s alias."
+      description: Gets a device token???s alias.
       operationId: device_tokens.token.get
       x-api-path-slug: device-tokenstoken-get
       parameters:

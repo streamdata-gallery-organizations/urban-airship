@@ -39,7 +39,7 @@ paths:
       - Token
     get:
       summary: Get Device Tokens Token
-      description: "Gets a device token\u2019s alias."
+      description: Gets a device token???s alias.
       operationId: device_tokens.token.get
       x-api-path-slug: device-tokenstoken-get
       parameters:
@@ -81,9 +81,9 @@ paths:
   /push:
     post:
       summary: Post Push
-      description: "Sends a push message to one or more users. Only one of aliases,
+      description: Sends a push message to one or more users. Only one of aliases,
         tags, or device_pins is required, but they can be mixed and matched as much
-        as you\u2019d like."
+        as you???d like.
       operationId: push.post
       x-api-path-slug: push-post
       parameters:
@@ -123,11 +123,11 @@ paths:
   /push/scheduled:
     post:
       summary: Post Push Scheduled
-      description: "Bulk deletes scheduled notifications. If you include URLs or aliases
-        for scheduled notifications that don\u2019t exist or have already been sent,
+      description: Bulk deletes scheduled notifications. If you include URLs or aliases
+        for scheduled notifications that don???t exist or have already been sent,
         they will be ignored. Any device token in the cancel_device_tokens payload
         will have every notification that is sent to it removed. This will not prevent
-        it from receiving scheduled notifications to tags or broadcast messages."
+        it from receiving scheduled notifications to tags or broadcast messages.
       operationId: push.scheduled.post
       x-api-path-slug: pushscheduled-post
       parameters:
